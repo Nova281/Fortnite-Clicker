@@ -28,14 +28,13 @@ h1 {
 img {
 	height: 80vh;
 	user-select: none;
-	cursor: pointer;
  	display: block;
  	margin: auto;
 }
 
 p {
-  text-align: center;
-  color: #fff;
-  font-size: 1.5em;
-  margin: 5px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.5em;
+	margin: 5px;
 }
