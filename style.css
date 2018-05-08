@@ -1,20 +1,21 @@
 html, body {
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	margin: 0;
 	overflow: hidden;
 }
 
 @font-face {
 	font-family: "BurbankBigCondensed";
-	src:url("fonts/BurbankBigCondensed.otf") format("opentype");
+	src: url("fonts/BurbankBigCondensed.otf") format("opentype");
 }
 
 body {
-	background: #000 url("images/stage.jpg") no-repeat center/cover;
+	background: url("images/stage.jpg") no-repeat center/cover;
 	font-family: 'BurbankBigCondensed', sans-serif;
 	font-weight: normal;
 	font-style: normal;
+	cursor: url(cursor/axecur.jpg), url(cursor/axe.cur), auto;
 }
 
 h1 {
@@ -23,6 +24,7 @@ h1 {
 	text-align: center;
 	margin: 5px;
 }
+
 img {
 	height: 80vh;
 	user-select: none;
@@ -37,8 +39,3 @@ p {
   font-size: 1.5em;
   margin: 5px;
 }
-
-* { 
-	cursor: url(cursor/axecur.jpeg), url(cursor/axe.cur), auto; 
-}
-
