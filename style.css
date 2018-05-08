@@ -39,6 +39,6 @@ p {
 }
 
 * { 
-	cursor: url(cursor/axecur.jpeg), url(cursor/axe.cur), pointer; 
+	cursor: url(cursor/axecur.jpeg), url(cursor/axe.cur), auto; 
 }
 
