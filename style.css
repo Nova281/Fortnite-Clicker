@@ -12,18 +12,19 @@ h1 {
 	color: #fff;
 	font-size: 5vh;
 	text-align: center;
+	margin: 5px;
 }
-.button {
-	width: 75vw;
-	height: 25vh;
-	margin: 5px auto;
-	padding: 12px;
-	background: #fff;
-	border-radius: 20px;
-	font-size: 16vh;
-	line-height: 25vh;
-	font-weight: bold;
-	text-align: center;
+img {
+	height: 80vh;
 	user-select: none;
 	cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  margin: 5px;
 }
