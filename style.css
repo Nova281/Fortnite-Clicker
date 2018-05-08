@@ -7,11 +7,11 @@ html, body {
 
 @font-face {
 	font-family: "BurbankBigCondensed";
-	src:url("BurbankBigCondensed.otf") format("opentype");
+	src:url("fonts/BurbankBigCondensed.otf") format("opentype");
 }
 
 body {
-	background: #000 url("stage.jpg") no-repeat center/cover;
+	background: #000 url("images/stage.jpg") no-repeat center/cover;
 	font-family: 'BurbankBigCondensed', sans-serif;
 	font-weight: normal;
 	font-style: normal;
