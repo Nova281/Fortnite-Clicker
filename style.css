@@ -15,7 +15,7 @@ body {
 	font-family: 'BurbankBigCondensed', sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	cursor: url(cursor/axecur.jpg), url(cursor/axe.cur), auto;
+	cursor: url(cursor/axe.cur), url(cursor/axecur.jpg), auto;
 }
 
 h1 {
