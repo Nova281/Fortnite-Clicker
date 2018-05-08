@@ -4,10 +4,19 @@ html, body {
 	margin: 0;
 	overflow: hidden;
 }
+
+@font-face {
+	font-family: "BurbankBigCondensed";
+	src:url("BurbankBigCondensed.otf") format("opentype");
+}
+
 body {
 	background: #000 url("stage.jpg") no-repeat center/cover;
-	font-family: sans-serif;
+	font-family: 'BurbankBigCondensed', sans-serif;
+	font-weight: normal;
+	font-style: normal;
 }
+
 h1 {
 	color: #fff;
 	font-size: 5vh;
@@ -28,3 +37,5 @@ p {
   font-size: 1.5em;
   margin: 5px;
 }
+
+
