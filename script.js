@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", function() {
 	  }, 3000);
 	  
   });
+document.querySelector("#resetButton").addEventListener("click", function() {
+	 
+	 localStorage.fortniteClickerPoints = 0;
+	 document.querySelector("p").textContent = points + " V-Bucks";
+  
+  });
   
   document.addEventListener("contextmenu", function(e){ e.preventDefault() });
   
