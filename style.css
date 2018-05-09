@@ -42,7 +42,7 @@ img:first-of-type {
  	margin: auto;
 }
 
-img:not(:first-of-type){
+img:not(:first-of-type) {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -61,16 +61,25 @@ img:not(:first-of-type){
     opacity: 0;
   }
 }
-.resetButton {
-	width: 100px;
-	padding: 12px;
-	top: 0;
-	left: 0;
+
+div:first-of-type {
+	position: absolute;
+	padding: 15px 30px;
+	left: 10px;
+	bottom: 10px;
 	border-radius: 20px;
 	font-size: 30px;
-	font-weight: bold;
 	text-align: center;
 	user-select: none;
-	background-color: #F49D50;
+	-webkit-user-select: none;
+	background: #F49D50;
 	color: #fff;
+}
+
+div:nth-of-type(2) {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	color: #fff;
+	font-size: 21px;
 }
