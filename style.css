@@ -62,7 +62,7 @@ img:not(:first-of-type) {
   }
 }
 
-div:first-of-type {
+.button {
 	position: absolute;
 	padding: 15px 30px;
 	left: 10px;
@@ -74,12 +74,29 @@ div:first-of-type {
 	-webkit-user-select: none;
 	background: #F49D50;
 	color: #fff;
+	-webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    font-family: "font"
+}
+.button1 {
+	background-color: #F49D50;
+	color: white;
+	user-select: none;
+	-webkit-user-select: none;
+}
+.button1:hover {
+	background-color: white; 
+    color: black; 
+    border: 1px solid #F49D50;
+    user-select: none;
+    -webkit-user-select: none;
 }
 
-div:nth-of-type(2) {
+div:first-of-type {
 	position: absolute;
 	bottom: 5px;
 	right: 5px;
 	color: #fff;
 	font-size: 21px;
+
 }
