@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		}, 3000);
 	});
 
-	document.querySelector("button").addEventListener("click", function() {
+	document.querySelector("div").addEventListener("click", function() {
 		localStorage.fortniteClickerPoints = 0;
 		points = 0;
 		document.querySelector("p").textContent = points + " V-Bucks";
