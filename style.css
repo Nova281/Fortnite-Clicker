@@ -75,15 +75,14 @@ div:first-of-type {
 	background: #F49D50;
 	color: #fff;
 	-webkit-transition-duration: 0.4s; 
-    transition-duration: 0.4s;
-    font-family: "font"
+    	transition-duration: 0.4s;
+    	font-family: "font";
 }
 div:first-of-type:hover {
 	background-color: white; 
-    color: #F49D50; 
-    
-    user-select: none;
-    -webkit-user-select: none;
+    	color: #F49D50; 
+    	user-select: none;
+    	-webkit-user-select: none;
 }
 
 div:nth-of-type(2) {
