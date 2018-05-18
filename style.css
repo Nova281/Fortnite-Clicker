@@ -78,7 +78,7 @@ div:first-of-type {
     	transition-duration: 0.4s;
     	font-family: "font";
 }
-div:first-of-type:hover {
+div:first-of-type:active {
 	background-color: white; 
     	color: #F49D50; 
     	user-select: none;
